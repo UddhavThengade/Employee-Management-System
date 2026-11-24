@@ -1,0 +1,1 @@
+function confirmDelete(){return confirm('Delete this employee record? This cannot be undone.');}
