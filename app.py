@@ -10,8 +10,11 @@ app.config.from_object(Config)
 
 def db():
     return mysql.connector.connect(
-        host=app.config["DB_HOST"], user=app.config["DB_USER"],
-        password=app.config["DB_PASSWORD"], database=app.config["DB_NAME"]
+        host=app.config["DB_HOST"],
+        port=int(app.config["DB_PORT"]),
+        user=app.config["DB_USER"],
+        password=app.config["DB_PASSWORD"],
+        database=app.config["DB_NAME"]
     )
 
 def login_required(fn):
