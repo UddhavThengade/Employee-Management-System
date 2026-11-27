@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Employee Management System (EMS)
 
 A beginner-friendly full-stack project using Python, Flask, MySQL, HTML, CSS and Bootstrap.
@@ -49,3 +50,7 @@ The application creates the initial admin account on first run. Change the demo 
 
 ## Future enhancements
 Add payroll slips, PDF/Excel reports, role-based access, pagination, CSRF protection and automated tests before production deployment.
+=======
+# Employee-Management-System
+A web-based Employee Management System (EMS) developed using Python Flask, HTML, CSS, JavaScript, and SQLite/MySQL. This application helps organizations efficiently manage employee records, add, update, delete, and view employee details through a user-friendly interface. It simplifies employee data management and improves administrative efficiency.
+>>>>>>> e149b92ebeefb1839f9d734fd12f9efd94b467bc
